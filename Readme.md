@@ -30,3 +30,6 @@ To run the app locally following steps needs to be followed:
 -To make the release app, do `cd android && ./gradlew assembleRelease`
 -Your apk will be created in `android/app/build/outputs/apk/release/`
 -Just install the app-release.apk in your android mobile, then you will be able to run the app
+- I have already made an apk and recorded the whole app flow and uploaded in my drive, please refer this link to get the apk and recording
+https://drive.google.com/drive/folders/10aGElXbFpL7pvoVefq4WZIEnMoq_MYvi?usp=sharing
+
