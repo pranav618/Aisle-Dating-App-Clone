@@ -3,11 +3,17 @@
 This app is implemented on Responsive Scaling, so it will support all type of mobile screens.
 Below you will find some information on how to perform common tasks.<br>
 
-## Table of Contents
-
+- [Pre-requisite](#pre-requisite)
 - [Installation](#installation)
 - [Running the app](#running-the-app)
 - [Making Release App](#managing-releases)
+
+## Pre-requisite
+
+- This is a React-Native app.
+- npm version used 6.9.0
+- node version used v10.16.3
+- Android Studio
 
 ## Installation
 
@@ -28,9 +34,8 @@ To run the app locally following steps needs to be followed:
 
 # Managing Releases
 
--To make the release app, do `cd android && ./gradlew assembleRelease`
--Your apk will be created in `android/app/build/outputs/apk/release/`
--Just install the app-release.apk in your android mobile, then you will be able to run the app
+- To make the release app, do `cd android && ./gradlew assembleRelease`
+- Your apk will be created in `android/app/build/outputs/apk/release/`
+- Just install the app-release.apk in your android mobile, then you will be able to run the app
 - I have already made an apk and recorded the whole app flow and uploaded in my drive, please refer this link to get the apk and recording
-https://drive.google.com/drive/folders/10aGElXbFpL7pvoVefq4WZIEnMoq_MYvi?usp=sharing
-
+  https://drive.google.com/drive/folders/10aGElXbFpL7pvoVefq4WZIEnMoq_MYvi?usp=sharing
