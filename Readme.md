@@ -1,5 +1,6 @@
 ## Aisle App, Task 3
 
+This app is implemented on Responsive Scaling, so it will support all type of mobile screens.
 Below you will find some information on how to perform common tasks.<br>
 
 ## Table of Contents
