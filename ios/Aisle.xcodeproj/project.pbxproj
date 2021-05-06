@@ -1,0 +1,1112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AisleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AisleTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1E56EE9D1ACB826C591C0C50 /* libPods-Aisle-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1A4C5D69D0E763E8E50BB /* libPods-Aisle-tvOSTests.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* AisleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AisleTests.m */; };
+		3334FD4B097AD2D5038979B1 /* libPods-Aisle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C7817B2E7471DD46F17FE9 /* libPods-Aisle.a */; };
+		38C9D93C5D5BD264FF269051 /* libPods-AisleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B178AD205832E2F0EDEFD21 /* libPods-AisleTests.a */; };
+		DFF89143F4EA3267FFD7744F /* libPods-Aisle-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D3BD612ADF166AA85E0BF4 /* libPods-Aisle-tvOS.a */; };
+		187AF8BA3FC5448EA3D5F76D /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D1C571F2344770949CC92D /* Inter-Black.ttf */; };
+		7C1107B19ED64109A1837FA0 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8D592FA4A204184856653FB /* Inter-Bold.ttf */; };
+		FED64840989A46C39C955E72 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2662013E15D24CF9A9DDB420 /* Inter-ExtraBold.ttf */; };
+		249EAE7ED8ED4350BCC5D8E1 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41EB10C9061E49909613F8B4 /* Inter-ExtraLight.ttf */; };
+		43C9276342EB4D2E9FC42F8B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7437E674F2064E70A02D2BE4 /* Inter-Light.ttf */; };
+		62E37B9D255942C49C962D70 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBF1F1C744C04CF7B89C6365 /* Inter-Medium.ttf */; };
+		D4222C6C9F844A9FAE5EBFD8 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E1C468DCB44358465939E /* Inter-Regular.ttf */; };
+		DE3B09DBC2CF41C382129043 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13BA474293B04BF2821D37CF /* Inter-SemiBold.ttf */; };
+		C1C9A562885B4FBFBFA63DC2 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3F1A616D38C44C2A8ECB2E1 /* Inter-Thin.ttf */; };
+		533368ABB99849CB98236E76 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8AF7C7A78341CEA075010F /* AntDesign.ttf */; };
+		55136B8E8BF7442988F89F1F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A2B0B3A0BD4A5CB806E567 /* Entypo.ttf */; };
+		86BD393992FF4855B1465A6E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1101DB48C44B189F2E6EE8 /* EvilIcons.ttf */; };
+		64972E9D0F224766A8F3EEA5 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91CEA35D44AD4EBBA52A81A3 /* Feather.ttf */; };
+		2FDCACEE5D644698BACE157E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 931BFD28B3424406AA1AAB82 /* FontAwesome.ttf */; };
+		E6A89B2DD8F546248B169325 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3900E6286ECA4D3FBBB9CF13 /* FontAwesome5_Brands.ttf */; };
+		1E69C5ABEE744EFBAFEF8E53 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A90B3230174947BBB60A7B /* FontAwesome5_Regular.ttf */; };
+		E588B2EB057F4C9D9EA4FB5D /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A72233CFA1AD4748BE5AD49D /* FontAwesome5_Solid.ttf */; };
+		FD4F16C71CE340EEA78FCF65 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12620D010B774B8C93AAE4FF /* Fontisto.ttf */; };
+		D37C9CCA8A9D407386A1D989 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C18D14F853B34DCE804AC7F3 /* Foundation.ttf */; };
+		88EC6E6628564BA8966DC71E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C3E95427884A3891BC5B12 /* Ionicons.ttf */; };
+		405ABDD8B3AA491697EF95D3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C87817BBF53E443D83073768 /* MaterialCommunityIcons.ttf */; };
+		CE6C623CFCC4439D8C1A2EF1 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4307DEF42794866B7CF29E2 /* MaterialIcons.ttf */; };
+		C92C2C632D2342B1B1E447D4 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1864EF65FB4D43EC994AA91D /* Octicons.ttf */; };
+		BF94E37EED1841D1BB26B3ED /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76B51FF5E2343039C0252C1 /* SimpleLineIcons.ttf */; };
+		1734E7EE164E4FD796DC49F8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AB876BDE5DD4F8AB73F5133 /* Zocial.ttf */; };
+		4CE5D530D54146A09EF6A375 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDB2EC36E2448B8AF1F2BB /* Gilroy-Black.ttf */; };
+		D12BE75E1D4C4C25A3F0E64E /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E85671B5E44F1C9D7B9B7A /* Gilroy-BlackItalic.ttf */; };
+		28C694D8468C40D2AA6C314C /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CDFF2772EF64F94B15AA509 /* Gilroy-Bold.ttf */; };
+		6D11BAF7996C40038ABDD9CF /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B54D55F37F8C4BC99D4A2DDC /* Gilroy-BoldItalic.ttf */; };
+		02796BD4F714467AA2058BFF /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53010C32C8A143B5AE84347E /* Gilroy-ExtraBold.ttf */; };
+		DFA40CA2BE1D4215867D0F6E /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A76F2D7D33264C1384D6F56E /* Gilroy-ExtraBoldItalic.ttf */; };
+		493D53CABFBD407BAF6B7C28 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6698E1A180D4DC595FAC8F4 /* Gilroy-Heavy.ttf */; };
+		DAD1EFA30BB54940BB1C2473 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BA42D724D746B98FB4866F /* Gilroy-HeavyItalic.ttf */; };
+		FE554620F05A4A4887173D2F /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F22013C49B145BB91F1927C /* Gilroy-Light.ttf */; };
+		0EFA780545314DD090A653A4 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57E0AF7F70304851A2DE0D67 /* Gilroy-LightItalic.ttf */; };
+		D4A2E1D97CCB4F69B3BCCF5A /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21E7442532CB4E4E97E0E782 /* Gilroy-Medium.ttf */; };
+		63525CCF3DBB4EA887F33B92 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 858A0D7D8FD349D9A686AD4C /* Gilroy-MediumItalic.ttf */; };
+		1C469B8FB1AF4FCD923CBB6B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390FFDD95B9A4BEEBF43592C /* Gilroy-Regular.ttf */; };
+		B3ABB75A7E5E4352865BC9A5 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 229AE5E120FE461F8F3C5116 /* Gilroy-RegularItalic.ttf */; };
+		A9A4190A631643ABAC48C277 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC2135EF623C41CDB0DEA913 /* Gilroy-SemiBold.ttf */; };
+		DE7973E480A54B9D942D8741 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 184E4704AF044B43B940004B /* Gilroy-SemiBoldItalic.ttf */; };
+		8E24160D005A4A60B60883BC /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4789D5788F9463F876156EC /* Gilroy-Thin.ttf */; };
+		D6303945F94047D6A24839E3 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20868B000D6415DB0513C4F /* Gilroy-ThinItalic.ttf */; };
+		0511E8CC4ED34DB7BB23A219 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C75FDFA0BA143ECAB48371A /* Gilroy-UltraLight.ttf */; };
+		851D2D27E67B455D923BF54D /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3A273D0441D284FD5E27 /* Gilroy-UltraLightItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Aisle;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Aisle-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* AisleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AisleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AisleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AisleTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Aisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Aisle/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Aisle/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Aisle/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Aisle/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Aisle/main.m; sourceTree = "<group>"; };
+		15177A4AABF59DFB8AB28D6D /* Pods-Aisle-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Aisle-tvOS/Pods-Aisle-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1B76F945CCE660AD1847693F /* Pods-Aisle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle.release.xcconfig"; path = "Target Support Files/Pods-Aisle/Pods-Aisle.release.xcconfig"; sourceTree = "<group>"; };
+		2AD1A4C5D69D0E763E8E50BB /* libPods-Aisle-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aisle-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Aisle-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aisle-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Aisle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aisle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345318A255D12387A438092F /* Pods-Aisle-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Aisle-tvOSTests/Pods-Aisle-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42C7817B2E7471DD46F17FE9 /* libPods-Aisle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aisle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B178AD205832E2F0EDEFD21 /* libPods-AisleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AisleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687489441399FCC480D6B80C /* Pods-AisleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleTests.release.xcconfig"; path = "Target Support Files/Pods-AisleTests/Pods-AisleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AB53C2711772426F46AAD22 /* Pods-Aisle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle.debug.xcconfig"; path = "Target Support Files/Pods-Aisle/Pods-Aisle.debug.xcconfig"; sourceTree = "<group>"; };
+		A020759AAF97DE1E774A31B2 /* Pods-AisleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleTests.debug.xcconfig"; path = "Target Support Files/Pods-AisleTests/Pods-AisleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0179091DDF43A86CC754D0A /* Pods-Aisle-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Aisle-tvOSTests/Pods-Aisle-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5D3BD612ADF166AA85E0BF4 /* libPods-Aisle-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aisle-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F6000DD329145CB56193588E /* Pods-Aisle-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Aisle-tvOS/Pods-Aisle-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		54D1C571F2344770949CC92D /* Inter-Black.ttf */ = {isa = PBXFileReference; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8D592FA4A204184856653FB /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2662013E15D24CF9A9DDB420 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41EB10C9061E49909613F8B4 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7437E674F2064E70A02D2BE4 /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBF1F1C744C04CF7B89C6365 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D3E1C468DCB44358465939E /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13BA474293B04BF2821D37CF /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3F1A616D38C44C2A8ECB2E1 /* Inter-Thin.ttf */ = {isa = PBXFileReference; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE8AF7C7A78341CEA075010F /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7A2B0B3A0BD4A5CB806E567 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F1101DB48C44B189F2E6EE8 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91CEA35D44AD4EBBA52A81A3 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		931BFD28B3424406AA1AAB82 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3900E6286ECA4D3FBBB9CF13 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3A90B3230174947BBB60A7B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A72233CFA1AD4748BE5AD49D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12620D010B774B8C93AAE4FF /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C18D14F853B34DCE804AC7F3 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83C3E95427884A3891BC5B12 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C87817BBF53E443D83073768 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4307DEF42794866B7CF29E2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1864EF65FB4D43EC994AA91D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D76B51FF5E2343039C0252C1 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AB876BDE5DD4F8AB73F5133 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BCDB2EC36E2448B8AF1F2BB /* Gilroy-Black.ttf */ = {isa = PBXFileReference; name = "Gilroy-Black.ttf"; path = "../assets/fonts/Gilroy-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95E85671B5E44F1C9D7B9B7A /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-BlackItalic.ttf"; path = "../assets/fonts/Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1CDFF2772EF64F94B15AA509 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; name = "Gilroy-Bold.ttf"; path = "../assets/fonts/Gilroy-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B54D55F37F8C4BC99D4A2DDC /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-BoldItalic.ttf"; path = "../assets/fonts/Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53010C32C8A143B5AE84347E /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Gilroy-ExtraBold.ttf"; path = "../assets/fonts/Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A76F2D7D33264C1384D6F56E /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-ExtraBoldItalic.ttf"; path = "../assets/fonts/Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6698E1A180D4DC595FAC8F4 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; name = "Gilroy-Heavy.ttf"; path = "../assets/fonts/Gilroy-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0BA42D724D746B98FB4866F /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-HeavyItalic.ttf"; path = "../assets/fonts/Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F22013C49B145BB91F1927C /* Gilroy-Light.ttf */ = {isa = PBXFileReference; name = "Gilroy-Light.ttf"; path = "../assets/fonts/Gilroy-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57E0AF7F70304851A2DE0D67 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-LightItalic.ttf"; path = "../assets/fonts/Gilroy-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21E7442532CB4E4E97E0E782 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; name = "Gilroy-Medium.ttf"; path = "../assets/fonts/Gilroy-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		858A0D7D8FD349D9A686AD4C /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-MediumItalic.ttf"; path = "../assets/fonts/Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		390FFDD95B9A4BEEBF43592C /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; name = "Gilroy-Regular.ttf"; path = "../assets/fonts/Gilroy-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		229AE5E120FE461F8F3C5116 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-RegularItalic.ttf"; path = "../assets/fonts/Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC2135EF623C41CDB0DEA913 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; name = "Gilroy-SemiBold.ttf"; path = "../assets/fonts/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		184E4704AF044B43B940004B /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-SemiBoldItalic.ttf"; path = "../assets/fonts/Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4789D5788F9463F876156EC /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; name = "Gilroy-Thin.ttf"; path = "../assets/fonts/Gilroy-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A20868B000D6415DB0513C4F /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-ThinItalic.ttf"; path = "../assets/fonts/Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C75FDFA0BA143ECAB48371A /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; name = "Gilroy-UltraLight.ttf"; path = "../assets/fonts/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C1E3A273D0441D284FD5E27 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; name = "Gilroy-UltraLightItalic.ttf"; path = "../assets/fonts/Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C9D93C5D5BD264FF269051 /* libPods-AisleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3334FD4B097AD2D5038979B1 /* libPods-Aisle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF89143F4EA3267FFD7744F /* libPods-Aisle-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E56EE9D1ACB826C591C0C50 /* libPods-Aisle-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AisleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AisleTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AisleTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Aisle */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Aisle;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				42C7817B2E7471DD46F17FE9 /* libPods-Aisle.a */,
+				C5D3BD612ADF166AA85E0BF4 /* libPods-Aisle-tvOS.a */,
+				2AD1A4C5D69D0E763E8E50BB /* libPods-Aisle-tvOSTests.a */,
+				4B178AD205832E2F0EDEFD21 /* libPods-AisleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Aisle */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AisleTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8A301672FFF28D2604A872A3 /* Pods */,
+				43E06FA83CCD461FB31F52B2 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Aisle.app */,
+				00E356EE1AD99517003FC87E /* AisleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Aisle-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Aisle-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A301672FFF28D2604A872A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB53C2711772426F46AAD22 /* Pods-Aisle.debug.xcconfig */,
+				1B76F945CCE660AD1847693F /* Pods-Aisle.release.xcconfig */,
+				F6000DD329145CB56193588E /* Pods-Aisle-tvOS.debug.xcconfig */,
+				15177A4AABF59DFB8AB28D6D /* Pods-Aisle-tvOS.release.xcconfig */,
+				345318A255D12387A438092F /* Pods-Aisle-tvOSTests.debug.xcconfig */,
+				C0179091DDF43A86CC754D0A /* Pods-Aisle-tvOSTests.release.xcconfig */,
+				A020759AAF97DE1E774A31B2 /* Pods-AisleTests.debug.xcconfig */,
+				687489441399FCC480D6B80C /* Pods-AisleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		43E06FA83CCD461FB31F52B2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				54D1C571F2344770949CC92D /* Inter-Black.ttf */,
+				E8D592FA4A204184856653FB /* Inter-Bold.ttf */,
+				2662013E15D24CF9A9DDB420 /* Inter-ExtraBold.ttf */,
+				41EB10C9061E49909613F8B4 /* Inter-ExtraLight.ttf */,
+				7437E674F2064E70A02D2BE4 /* Inter-Light.ttf */,
+				DBF1F1C744C04CF7B89C6365 /* Inter-Medium.ttf */,
+				9D3E1C468DCB44358465939E /* Inter-Regular.ttf */,
+				13BA474293B04BF2821D37CF /* Inter-SemiBold.ttf */,
+				D3F1A616D38C44C2A8ECB2E1 /* Inter-Thin.ttf */,
+				EE8AF7C7A78341CEA075010F /* AntDesign.ttf */,
+				F7A2B0B3A0BD4A5CB806E567 /* Entypo.ttf */,
+				1F1101DB48C44B189F2E6EE8 /* EvilIcons.ttf */,
+				91CEA35D44AD4EBBA52A81A3 /* Feather.ttf */,
+				931BFD28B3424406AA1AAB82 /* FontAwesome.ttf */,
+				3900E6286ECA4D3FBBB9CF13 /* FontAwesome5_Brands.ttf */,
+				D3A90B3230174947BBB60A7B /* FontAwesome5_Regular.ttf */,
+				A72233CFA1AD4748BE5AD49D /* FontAwesome5_Solid.ttf */,
+				12620D010B774B8C93AAE4FF /* Fontisto.ttf */,
+				C18D14F853B34DCE804AC7F3 /* Foundation.ttf */,
+				83C3E95427884A3891BC5B12 /* Ionicons.ttf */,
+				C87817BBF53E443D83073768 /* MaterialCommunityIcons.ttf */,
+				B4307DEF42794866B7CF29E2 /* MaterialIcons.ttf */,
+				1864EF65FB4D43EC994AA91D /* Octicons.ttf */,
+				D76B51FF5E2343039C0252C1 /* SimpleLineIcons.ttf */,
+				9AB876BDE5DD4F8AB73F5133 /* Zocial.ttf */,
+				9BCDB2EC36E2448B8AF1F2BB /* Gilroy-Black.ttf */,
+				95E85671B5E44F1C9D7B9B7A /* Gilroy-BlackItalic.ttf */,
+				1CDFF2772EF64F94B15AA509 /* Gilroy-Bold.ttf */,
+				B54D55F37F8C4BC99D4A2DDC /* Gilroy-BoldItalic.ttf */,
+				53010C32C8A143B5AE84347E /* Gilroy-ExtraBold.ttf */,
+				A76F2D7D33264C1384D6F56E /* Gilroy-ExtraBoldItalic.ttf */,
+				C6698E1A180D4DC595FAC8F4 /* Gilroy-Heavy.ttf */,
+				E0BA42D724D746B98FB4866F /* Gilroy-HeavyItalic.ttf */,
+				0F22013C49B145BB91F1927C /* Gilroy-Light.ttf */,
+				57E0AF7F70304851A2DE0D67 /* Gilroy-LightItalic.ttf */,
+				21E7442532CB4E4E97E0E782 /* Gilroy-Medium.ttf */,
+				858A0D7D8FD349D9A686AD4C /* Gilroy-MediumItalic.ttf */,
+				390FFDD95B9A4BEEBF43592C /* Gilroy-Regular.ttf */,
+				229AE5E120FE461F8F3C5116 /* Gilroy-RegularItalic.ttf */,
+				BC2135EF623C41CDB0DEA913 /* Gilroy-SemiBold.ttf */,
+				184E4704AF044B43B940004B /* Gilroy-SemiBoldItalic.ttf */,
+				D4789D5788F9463F876156EC /* Gilroy-Thin.ttf */,
+				A20868B000D6415DB0513C4F /* Gilroy-ThinItalic.ttf */,
+				7C75FDFA0BA143ECAB48371A /* Gilroy-UltraLight.ttf */,
+				7C1E3A273D0441D284FD5E27 /* Gilroy-UltraLightItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AisleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AisleTests" */;
+			buildPhases = (
+				5626F7C2B48CD1F71D990BFE /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AisleTests;
+			productName = AisleTests;
+			productReference = 00E356EE1AD99517003FC87E /* AisleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Aisle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Aisle" */;
+			buildPhases = (
+				B023391A9BD160BF5AF907AC /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aisle;
+			productName = Aisle;
+			productReference = 13B07F961A680F5B00A75B9A /* Aisle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Aisle-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Aisle-tvOS" */;
+			buildPhases = (
+				A3140E8CB7B7BD6A78130F8E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aisle-tvOS";
+			productName = "Aisle-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Aisle-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Aisle-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Aisle-tvOSTests" */;
+			buildPhases = (
+				78CA14C13D57E637978B6D82 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Aisle-tvOSTests";
+			productName = "Aisle-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Aisle-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Aisle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Aisle */,
+				00E356ED1AD99517003FC87E /* AisleTests */,
+				2D02E47A1E0B4A5D006451C7 /* Aisle-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Aisle-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				187AF8BA3FC5448EA3D5F76D /* Inter-Black.ttf in Resources */,
+				7C1107B19ED64109A1837FA0 /* Inter-Bold.ttf in Resources */,
+				FED64840989A46C39C955E72 /* Inter-ExtraBold.ttf in Resources */,
+				249EAE7ED8ED4350BCC5D8E1 /* Inter-ExtraLight.ttf in Resources */,
+				43C9276342EB4D2E9FC42F8B /* Inter-Light.ttf in Resources */,
+				62E37B9D255942C49C962D70 /* Inter-Medium.ttf in Resources */,
+				D4222C6C9F844A9FAE5EBFD8 /* Inter-Regular.ttf in Resources */,
+				DE3B09DBC2CF41C382129043 /* Inter-SemiBold.ttf in Resources */,
+				C1C9A562885B4FBFBFA63DC2 /* Inter-Thin.ttf in Resources */,
+				533368ABB99849CB98236E76 /* AntDesign.ttf in Resources */,
+				55136B8E8BF7442988F89F1F /* Entypo.ttf in Resources */,
+				86BD393992FF4855B1465A6E /* EvilIcons.ttf in Resources */,
+				64972E9D0F224766A8F3EEA5 /* Feather.ttf in Resources */,
+				2FDCACEE5D644698BACE157E /* FontAwesome.ttf in Resources */,
+				E6A89B2DD8F546248B169325 /* FontAwesome5_Brands.ttf in Resources */,
+				1E69C5ABEE744EFBAFEF8E53 /* FontAwesome5_Regular.ttf in Resources */,
+				E588B2EB057F4C9D9EA4FB5D /* FontAwesome5_Solid.ttf in Resources */,
+				FD4F16C71CE340EEA78FCF65 /* Fontisto.ttf in Resources */,
+				D37C9CCA8A9D407386A1D989 /* Foundation.ttf in Resources */,
+				88EC6E6628564BA8966DC71E /* Ionicons.ttf in Resources */,
+				405ABDD8B3AA491697EF95D3 /* MaterialCommunityIcons.ttf in Resources */,
+				CE6C623CFCC4439D8C1A2EF1 /* MaterialIcons.ttf in Resources */,
+				C92C2C632D2342B1B1E447D4 /* Octicons.ttf in Resources */,
+				BF94E37EED1841D1BB26B3ED /* SimpleLineIcons.ttf in Resources */,
+				1734E7EE164E4FD796DC49F8 /* Zocial.ttf in Resources */,
+				4CE5D530D54146A09EF6A375 /* Gilroy-Black.ttf in Resources */,
+				D12BE75E1D4C4C25A3F0E64E /* Gilroy-BlackItalic.ttf in Resources */,
+				28C694D8468C40D2AA6C314C /* Gilroy-Bold.ttf in Resources */,
+				6D11BAF7996C40038ABDD9CF /* Gilroy-BoldItalic.ttf in Resources */,
+				02796BD4F714467AA2058BFF /* Gilroy-ExtraBold.ttf in Resources */,
+				DFA40CA2BE1D4215867D0F6E /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				493D53CABFBD407BAF6B7C28 /* Gilroy-Heavy.ttf in Resources */,
+				DAD1EFA30BB54940BB1C2473 /* Gilroy-HeavyItalic.ttf in Resources */,
+				FE554620F05A4A4887173D2F /* Gilroy-Light.ttf in Resources */,
+				0EFA780545314DD090A653A4 /* Gilroy-LightItalic.ttf in Resources */,
+				D4A2E1D97CCB4F69B3BCCF5A /* Gilroy-Medium.ttf in Resources */,
+				63525CCF3DBB4EA887F33B92 /* Gilroy-MediumItalic.ttf in Resources */,
+				1C469B8FB1AF4FCD923CBB6B /* Gilroy-Regular.ttf in Resources */,
+				B3ABB75A7E5E4352865BC9A5 /* Gilroy-RegularItalic.ttf in Resources */,
+				A9A4190A631643ABAC48C277 /* Gilroy-SemiBold.ttf in Resources */,
+				DE7973E480A54B9D942D8741 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				8E24160D005A4A60B60883BC /* Gilroy-Thin.ttf in Resources */,
+				D6303945F94047D6A24839E3 /* Gilroy-ThinItalic.ttf in Resources */,
+				0511E8CC4ED34DB7BB23A219 /* Gilroy-UltraLight.ttf in Resources */,
+				851D2D27E67B455D923BF54D /* Gilroy-UltraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5626F7C2B48CD1F71D990BFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AisleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CA14C13D57E637978B6D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aisle-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3140E8CB7B7BD6A78130F8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aisle-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B023391A9BD160BF5AF907AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aisle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AisleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* AisleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Aisle */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Aisle-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Aisle;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A020759AAF97DE1E774A31B2 /* Pods-AisleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AisleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisle.app/Aisle";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687489441399FCC480D6B80C /* Pods-AisleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AisleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisle.app/Aisle";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB53C2711772426F46AAD22 /* Pods-Aisle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = Aisle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Aisle;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B76F945CCE660AD1847693F /* Pods-Aisle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Aisle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Aisle;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6000DD329145CB56193588E /* Pods-Aisle-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Aisle-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Aisle-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15177A4AABF59DFB8AB28D6D /* Pods-Aisle-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Aisle-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Aisle-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345318A255D12387A438092F /* Pods-Aisle-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Aisle-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Aisle-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisle-tvOS.app/Aisle-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0179091DDF43A86CC754D0A /* Pods-Aisle-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Aisle-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Aisle-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisle-tvOS.app/Aisle-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AisleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Aisle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Aisle-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Aisle-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Aisle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
