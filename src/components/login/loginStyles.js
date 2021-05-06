@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   countryInput: {
     width: scale(64),
-    height: verticalScale(36),
+    height: verticalScale(50),
     borderRadius: scale(8),
     borderColor: "#C4C4C4",
     borderWidth: scale(1),
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   phoneInput: {
     width: scale(147),
-    height: verticalScale(36),
+    height: verticalScale(50),
     borderRadius: scale(8),
     borderColor: "#C4C4C4",
     borderWidth: scale(1),
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   },
   verifyOtpInput: {
     width: scale(78),
-    height: verticalScale(36),
+    height: verticalScale(50),
     borderRadius: scale(8),
     borderColor: "#C4C4C4",
     borderWidth: scale(1),
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   },
 
   continueText: {
-    width: scale(63),
+    width: scale(68),
     height: verticalScale(17),
     fontFamily: "Inter-Bold",
     color: "#000000",
