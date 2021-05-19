@@ -1,6 +1,6 @@
 ## Aisle App, Task2- Task 3
 
-- For Task2,  I have uploaded the Task2.pdf in the root directory of this repository.
+
 - This app is implemented on Responsive Scaling, so it will support all type of mobile screens.
 - Below you will find some information on how to perform common tasks.<br>
 
